@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Information</title>
+<style>
+	*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+	}
+	.container{
+		max-width: 45%;
+		background-color: #8b70a5;
+		padding: 34px;
+		margin: auto;
+		
+	}
+	.container h1, h3 {
+		text-align: center;
+	}
+	input{
+		display: block;
+		width: 65%;
+    	margin: 5px auto;
+    	padding: 3px;
+    	font-size: 13px;
+    	border: 2px solid black;
+    	border-radius: 6px;
+	}
+	p{
+		font-size: 17px;
+	}
+	.button{
+		color: white;
+    	background: purple;
+   	 	padding: 8px 2px;
+    	width: 62px;
+    	cursor: pointer;
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Welcome to home page</h1>
+		<p>______________________________________________________________</p> <br>
+		<h3>Enter user details</h3>
+		<form action="Add">
+			Enter Employee Id <input type="text" name="empid" > 
+			Enter Employee Name <input type="text" name="empName" > 
+			Enter Date of Birth <input type="text" name="dateOfBirth" > 
+			Enter Blood group <input type="text" name="bloodGroup" > 
+			Enter Experience <input type="text" name="experience"  >
+			Enter Contact no. <input type="text" name="contactNo" >
+			<input class="button" type="submit" value="add"> 
+		</form>
+		<p>______________________________________________________________</p>
+		<br>
+		<h3>Search for employee</h3>
+		<form action="Search">
+			Enter Employee Id <input type="text" name="empid"> 
+			<input class="button" type="submit" value="search">
+		</form>
+		<p>______________________________________________________________</p>
+		<br>
+		<h3>View the table</h3>
+		<form action="ViewAll">
+			<input class="button" type="submit" value="viewAll">
+		</form>
+		<p>______________________________________________________________</p>
+	</div>
+</body>
+</html>
