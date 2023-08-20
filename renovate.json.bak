@@ -11,11 +11,11 @@
   "packageRules": [
   	{
 		"matchPackagePatterns": ["docker"],
-		"labels": ["docker-testlabel"]
+		"labels": ["docker"]
 	},
 	{
 		"matchPackagePatterns": ["maven"],
-		"labels": ["maven-testlabel"]
+		"labels": ["maven"]
 	},
   ]
 }
