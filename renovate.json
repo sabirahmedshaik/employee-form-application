@@ -5,7 +5,7 @@
   ],
   "prHeader": "OSS Vulnerable Dependencies",
   "assignees": [
-  	"Sabir-786"
+  	"sabirahmedshaik"
   ],
   "labels": ["oss-vulnerable-depenencies"],
   "packageRules": [
