@@ -1,4 +1,4 @@
-<h2>Create a simple web application using JSP, Servlets, JDBC and Maven.<h2>
+<h2>Create a simple web application using JSP, Servlets, JDBC and Maven.</h2>
 
 Create with below details:
 <ol>
